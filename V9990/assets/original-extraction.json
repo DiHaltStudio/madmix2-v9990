@@ -1,0 +1,742 @@
+{
+  "source": "MSX/build/extracted/game.bin",
+  "sha256": "0e1d9324837dc77693c99709beea29a5df5effc2f834bd3c8c35911a54723218",
+  "sprites": [
+    {
+      "id": 0,
+      "file": "sprites/000.png",
+      "width": 24,
+      "height": 24,
+      "source": "1065"
+    },
+    {
+      "id": 1,
+      "file": "sprites/001.png",
+      "width": 24,
+      "height": 24,
+      "source": "10F5"
+    },
+    {
+      "id": 2,
+      "file": "sprites/002.png",
+      "width": 24,
+      "height": 24,
+      "source": "1185"
+    },
+    {
+      "id": 3,
+      "file": "sprites/003.png",
+      "width": 24,
+      "height": 24,
+      "source": "1215"
+    },
+    {
+      "id": 4,
+      "file": "sprites/004.png",
+      "width": 24,
+      "height": 24,
+      "source": "12A5"
+    },
+    {
+      "id": 5,
+      "file": "sprites/005.png",
+      "width": 24,
+      "height": 24,
+      "source": "1335"
+    },
+    {
+      "id": 6,
+      "file": "sprites/006.png",
+      "width": 24,
+      "height": 8,
+      "source": "13C5"
+    },
+    {
+      "id": 7,
+      "file": "sprites/007.png",
+      "width": 24,
+      "height": 8,
+      "source": "13F5"
+    },
+    {
+      "id": 8,
+      "file": "sprites/008.png",
+      "width": 24,
+      "height": 8,
+      "source": "1425"
+    },
+    {
+      "id": 9,
+      "file": "sprites/009.png",
+      "width": 24,
+      "height": 8,
+      "source": "1455"
+    },
+    {
+      "id": 10,
+      "file": "sprites/010.png",
+      "width": 24,
+      "height": 8,
+      "source": "1485"
+    },
+    {
+      "id": 11,
+      "file": "sprites/011.png",
+      "width": 24,
+      "height": 8,
+      "source": "14B5"
+    },
+    {
+      "id": 12,
+      "file": "sprites/012.png",
+      "width": 24,
+      "height": 8,
+      "source": "14E5"
+    },
+    {
+      "id": 13,
+      "file": "sprites/013.png",
+      "width": 24,
+      "height": 8,
+      "source": "1515"
+    },
+    {
+      "id": 14,
+      "file": "sprites/014.png",
+      "width": 24,
+      "height": 8,
+      "source": "1545"
+    },
+    {
+      "id": 15,
+      "file": "sprites/015.png",
+      "width": 24,
+      "height": 8,
+      "source": "1575"
+    },
+    {
+      "id": 16,
+      "file": "sprites/016.png",
+      "width": 24,
+      "height": 8,
+      "source": "15A5"
+    },
+    {
+      "id": 17,
+      "file": "sprites/017.png",
+      "width": 24,
+      "height": 8,
+      "source": "15D5"
+    },
+    {
+      "id": 18,
+      "file": "sprites/018.png",
+      "width": 24,
+      "height": 8,
+      "source": "1605"
+    },
+    {
+      "id": 19,
+      "file": "sprites/019.png",
+      "width": 24,
+      "height": 8,
+      "source": "1635"
+    },
+    {
+      "id": 20,
+      "file": "sprites/020.png",
+      "width": 24,
+      "height": 8,
+      "source": "1665"
+    },
+    {
+      "id": 21,
+      "file": "sprites/021.png",
+      "width": 24,
+      "height": 8,
+      "source": "1695"
+    },
+    {
+      "id": 22,
+      "file": "sprites/022.png",
+      "width": 24,
+      "height": 8,
+      "source": "16C5"
+    },
+    {
+      "id": 23,
+      "file": "sprites/023.png",
+      "width": 24,
+      "height": 8,
+      "source": "16F5"
+    },
+    {
+      "id": 24,
+      "file": "sprites/024.png",
+      "width": 24,
+      "height": 8,
+      "source": "1725"
+    },
+    {
+      "id": 25,
+      "file": "sprites/025.png",
+      "width": 24,
+      "height": 24,
+      "source": "1755"
+    },
+    {
+      "id": 26,
+      "file": "sprites/026.png",
+      "width": 24,
+      "height": 24,
+      "source": "17E5"
+    },
+    {
+      "id": 27,
+      "file": "sprites/027.png",
+      "width": 24,
+      "height": 24,
+      "source": "1875"
+    },
+    {
+      "id": 28,
+      "file": "sprites/028.png",
+      "width": 24,
+      "height": 24,
+      "source": "1905"
+    },
+    {
+      "id": 29,
+      "file": "sprites/029.png",
+      "width": 24,
+      "height": 24,
+      "source": "1995"
+    },
+    {
+      "id": 30,
+      "file": "sprites/030.png",
+      "width": 24,
+      "height": 24,
+      "source": "1A25"
+    },
+    {
+      "id": 31,
+      "file": "sprites/031.png",
+      "width": 24,
+      "height": 24,
+      "source": "1AB5"
+    },
+    {
+      "id": 32,
+      "file": "sprites/032.png",
+      "width": 24,
+      "height": 24,
+      "source": "1B45"
+    },
+    {
+      "id": 33,
+      "file": "sprites/033.png",
+      "width": 24,
+      "height": 24,
+      "source": "1BD5"
+    },
+    {
+      "id": 34,
+      "file": "sprites/034.png",
+      "width": 24,
+      "height": 24,
+      "source": "1C65"
+    },
+    {
+      "id": 35,
+      "file": "sprites/035.png",
+      "width": 24,
+      "height": 24,
+      "source": "1CF5"
+    },
+    {
+      "id": 36,
+      "file": "sprites/036.png",
+      "width": 24,
+      "height": 24,
+      "source": "1D85"
+    },
+    {
+      "id": 37,
+      "file": "sprites/037.png",
+      "width": 24,
+      "height": 16,
+      "source": "1E15"
+    },
+    {
+      "id": 38,
+      "file": "sprites/038.png",
+      "width": 24,
+      "height": 16,
+      "source": "1E75"
+    },
+    {
+      "id": 39,
+      "file": "sprites/039.png",
+      "width": 24,
+      "height": 8,
+      "source": "1ED5"
+    },
+    {
+      "id": 40,
+      "file": "sprites/040.png",
+      "width": 24,
+      "height": 8,
+      "source": "1F05"
+    },
+    {
+      "id": 41,
+      "file": "sprites/041.png",
+      "width": 24,
+      "height": 8,
+      "source": "1F35"
+    },
+    {
+      "id": 42,
+      "file": "sprites/042.png",
+      "width": 24,
+      "height": 8,
+      "source": "1F65"
+    },
+    {
+      "id": 43,
+      "file": "sprites/043.png",
+      "width": 24,
+      "height": 8,
+      "source": "1F95"
+    },
+    {
+      "id": 44,
+      "file": "sprites/044.png",
+      "width": 24,
+      "height": 8,
+      "source": "1FC5"
+    },
+    {
+      "id": 45,
+      "file": "sprites/045.png",
+      "width": 24,
+      "height": 8,
+      "source": "1FF5"
+    },
+    {
+      "id": 46,
+      "file": "sprites/046.png",
+      "width": 24,
+      "height": 24,
+      "source": "2025"
+    },
+    {
+      "id": 47,
+      "file": "sprites/047.png",
+      "width": 24,
+      "height": 32,
+      "source": "20B5"
+    },
+    {
+      "id": 48,
+      "file": "sprites/048.png",
+      "width": 24,
+      "height": 24,
+      "source": "2175"
+    },
+    {
+      "id": 49,
+      "file": "sprites/049.png",
+      "width": 24,
+      "height": 8,
+      "source": "2205"
+    },
+    {
+      "id": 50,
+      "file": "sprites/050.png",
+      "width": 24,
+      "height": 8,
+      "source": "2235"
+    },
+    {
+      "id": 51,
+      "file": "sprites/051.png",
+      "width": 24,
+      "height": 8,
+      "source": "2265"
+    },
+    {
+      "id": 52,
+      "file": "sprites/052.png",
+      "width": 24,
+      "height": 8,
+      "source": "2295"
+    },
+    {
+      "id": 53,
+      "file": "sprites/053.png",
+      "width": 24,
+      "height": 8,
+      "source": "22C5"
+    },
+    {
+      "id": 54,
+      "file": "sprites/054.png",
+      "width": 24,
+      "height": 8,
+      "source": "22F5"
+    },
+    {
+      "id": 55,
+      "file": "sprites/055.png",
+      "width": 24,
+      "height": 8,
+      "source": "2325"
+    },
+    {
+      "id": 56,
+      "file": "sprites/056.png",
+      "width": 24,
+      "height": 16,
+      "source": "2355"
+    },
+    {
+      "id": 57,
+      "file": "sprites/057.png",
+      "width": 24,
+      "height": 16,
+      "source": "23B5"
+    },
+    {
+      "id": 58,
+      "file": "sprites/058.png",
+      "width": 24,
+      "height": 24,
+      "source": "2415"
+    },
+    {
+      "id": 59,
+      "file": "sprites/059.png",
+      "width": 24,
+      "height": 24,
+      "source": "24A5"
+    },
+    {
+      "id": 60,
+      "file": "sprites/060.png",
+      "width": 24,
+      "height": 24,
+      "source": "2535"
+    },
+    {
+      "id": 61,
+      "file": "sprites/061.png",
+      "width": 24,
+      "height": 24,
+      "source": "25C5"
+    },
+    {
+      "id": 62,
+      "file": "sprites/062.png",
+      "width": 24,
+      "height": 16,
+      "source": "2655"
+    },
+    {
+      "id": 63,
+      "file": "sprites/063.png",
+      "width": 24,
+      "height": 16,
+      "source": "26B5"
+    },
+    {
+      "id": 64,
+      "file": "sprites/064.png",
+      "width": 24,
+      "height": 8,
+      "source": "2715"
+    },
+    {
+      "id": 65,
+      "file": "sprites/065.png",
+      "width": 24,
+      "height": 8,
+      "source": "2745"
+    },
+    {
+      "id": 66,
+      "file": "sprites/066.png",
+      "width": 24,
+      "height": 8,
+      "source": "2775"
+    },
+    {
+      "id": 67,
+      "file": "sprites/067.png",
+      "width": 24,
+      "height": 8,
+      "source": "2715"
+    },
+    {
+      "id": 68,
+      "file": "sprites/068.png",
+      "width": 24,
+      "height": 8,
+      "source": "2745"
+    },
+    {
+      "id": 69,
+      "file": "sprites/069.png",
+      "width": 24,
+      "height": 8,
+      "source": "2775"
+    },
+    {
+      "id": 70,
+      "file": "sprites/070.png",
+      "width": 24,
+      "height": 16,
+      "source": "27A5"
+    },
+    {
+      "id": 71,
+      "file": "sprites/071.png",
+      "width": 24,
+      "height": 16,
+      "source": "2805"
+    },
+    {
+      "id": 72,
+      "file": "sprites/072.png",
+      "width": 24,
+      "height": 16,
+      "source": "2865"
+    },
+    {
+      "id": 73,
+      "file": "sprites/073.png",
+      "width": 24,
+      "height": 16,
+      "source": "28C5"
+    },
+    {
+      "id": 74,
+      "file": "sprites/074.png",
+      "width": 24,
+      "height": 16,
+      "source": "2925"
+    },
+    {
+      "id": 75,
+      "file": "sprites/075.png",
+      "width": 24,
+      "height": 16,
+      "source": "2985"
+    },
+    {
+      "id": 76,
+      "file": "sprites/076.png",
+      "width": 24,
+      "height": 24,
+      "source": "29E5"
+    },
+    {
+      "id": 77,
+      "file": "sprites/077.png",
+      "width": 24,
+      "height": 24,
+      "source": "2A75"
+    },
+    {
+      "id": 78,
+      "file": "sprites/078.png",
+      "width": 24,
+      "height": 16,
+      "source": "2B05"
+    },
+    {
+      "id": 79,
+      "file": "sprites/079.png",
+      "width": 24,
+      "height": 8,
+      "source": "2B65"
+    },
+    {
+      "id": 80,
+      "file": "sprites/080.png",
+      "width": 24,
+      "height": 8,
+      "source": "2B95"
+    },
+    {
+      "id": 81,
+      "file": "sprites/081.png",
+      "width": 24,
+      "height": 16,
+      "source": "2BC5"
+    },
+    {
+      "id": 82,
+      "file": "sprites/082.png",
+      "width": 24,
+      "height": 16,
+      "source": "2C25"
+    },
+    {
+      "id": 83,
+      "file": "sprites/083.png",
+      "width": 24,
+      "height": 16,
+      "source": "2C85"
+    },
+    {
+      "id": 84,
+      "file": "sprites/084.png",
+      "width": 24,
+      "height": 16,
+      "source": "2CE5"
+    },
+    {
+      "id": 85,
+      "file": "sprites/085.png",
+      "width": 24,
+      "height": 16,
+      "source": "2D45"
+    },
+    {
+      "id": 86,
+      "file": "sprites/086.png",
+      "width": 24,
+      "height": 16,
+      "source": "2DA5"
+    },
+    {
+      "id": 87,
+      "file": "sprites/087.png",
+      "width": 24,
+      "height": 24,
+      "source": "2E05"
+    },
+    {
+      "id": 88,
+      "file": "sprites/088.png",
+      "width": 24,
+      "height": 1,
+      "source": "2E95"
+    },
+    {
+      "id": 89,
+      "file": "sprites/089.png",
+      "width": 24,
+      "height": 32,
+      "source": "2E95"
+    },
+    {
+      "id": 90,
+      "file": "sprites/090.png",
+      "width": 24,
+      "height": 1,
+      "source": "2F55"
+    },
+    {
+      "id": 91,
+      "file": "sprites/091.png",
+      "width": 24,
+      "height": 32,
+      "source": "2F55"
+    },
+    {
+      "id": 92,
+      "file": "sprites/092.png",
+      "width": 24,
+      "height": 24,
+      "source": "3015"
+    },
+    {
+      "id": 93,
+      "file": "sprites/093.png",
+      "width": 24,
+      "height": 24,
+      "source": "30A5"
+    },
+    {
+      "id": 94,
+      "file": "sprites/094.png",
+      "width": 24,
+      "height": 24,
+      "source": "3135"
+    },
+    {
+      "id": 95,
+      "file": "sprites/095.png",
+      "width": 24,
+      "height": 24,
+      "source": "31C5"
+    },
+    {
+      "id": 96,
+      "file": "sprites/096.png",
+      "width": 24,
+      "height": 24,
+      "source": "3255"
+    },
+    {
+      "id": 97,
+      "file": "sprites/097.png",
+      "width": 24,
+      "height": 24,
+      "source": "32E5"
+    },
+    {
+      "id": 98,
+      "file": "sprites/098.png",
+      "width": 24,
+      "height": 24,
+      "source": "3375"
+    },
+    {
+      "id": 99,
+      "file": "sprites/099.png",
+      "width": 24,
+      "height": 24,
+      "source": "3405"
+    },
+    {
+      "id": 100,
+      "file": "sprites/100.png",
+      "width": 24,
+      "height": 24,
+      "source": "3495"
+    },
+    {
+      "id": 101,
+      "file": "sprites/101.png",
+      "width": 24,
+      "height": 24,
+      "source": "3525"
+    },
+    {
+      "id": 102,
+      "file": "sprites/102.png",
+      "width": 24,
+      "height": 24,
+      "source": "35B5"
+    },
+    {
+      "id": 103,
+      "file": "sprites/103.png",
+      "width": 24,
+      "height": 24,
+      "source": "3645"
+    },
+    {
+      "id": 104,
+      "file": "sprites/104.png",
+      "width": 24,
+      "height": 24,
+      "source": "36D5"
+    }
+  ],
+  "palette": "0=transparent, 1=opaque black, 2=white; original monochrome masks preserved"
+}

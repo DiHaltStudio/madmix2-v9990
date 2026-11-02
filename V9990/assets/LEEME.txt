@@ -1,0 +1,122 @@
+MAD MIX 2 — GRAFICOS EDITABLES V9990 P1
+
+Abrir preview/index.html para ver las hojas numeradas y los nueve mapas.
+Las imágenes de preview son referencias: no son entradas del compilador.
+
+SPRITES
+sprites/sprites.png: hoja indexada de 256x448, celdas de 32x32, 105 poses.
+sprites/sprites.json define el rectángulo útil de cada pose (24 píxeles de
+ancho y altura original). No cambiar tamaños, orden ni IDs. Los píxeles fuera
+del rectángulo útil no se compilan. sprites/sprites.tsx permite verla en Tiled.
+Los antiguos sprites/000.png ... 104.png son referencias de la extracción;
+la fuente editable actual es la hoja sprites.png.
+
+TERRENO Y MAPAS
+ tiles/family0.png y family1.png: 56 tiles por hoja, cada tile de 32x16.
+ Las fases 1–3 y 7–9 usan family0; las fases 4–6 usan family1.
+ Abrir madmix2.world o madmix2.tiled-project en Tiled. Los nueve stageN.tmx
+ contienen los mapas completos. La distribución 3x3 del world es editorial:
+ no representa puertas entre mapas. next_stage indica la sucesión de fases
+ al completar objetivos, con vuelta de 9 a 1. Se conserva la envoltura X.
+ Los IDs mantienen las clases de colisión originales: pintar otro aspecto
+ no cambia automáticamente la colisión del tile.
+
+HUD Y TEXTO
+hud.png es el atlas de tiles de 8x8 y hud.tmx su composición editable.
+La capa invisible runtime_regions marca ventana de juego, puntuación y vidas.
+Fuera de la ventana X32..223/Y16..159 todos los píxeles deben ser opacos:
+usar índice local 1 (PNG 33) para negro; local 0 (PNG 32) es transparente. Esto oculta los sprites
+tras el marcador. El juego actualiza las regiones de puntuación y vidas.
+life.png contiene el icono de vida. font.png es una máscara indexada:
+local 1=fondo (PNG 33), local 2=trazo (PNG 34). font-styles.json contiene nueve estilos de ocho filas;
+cada byte codifica fondo*16+color del trazo.
+
+COLORES: MISMA TABLA DE 64 EN TODOS LOS PNG
+Los seis PNG editables (sprites, dos tilesets, HUD, vida y fuente) llevan
+la misma tabla: cuatro bancos de 16 colores, como Barbarian y Sol Negro.
+Índice PNG = banco*16 + color local. El empaquetador usa índice & 15.
+Banco 0 (0..15): tiles. Banco 1 (16..31): sprites.
+Banco 2 (32..47): HUD, vida y fuente. Banco 3 (48..63): sprites auxiliares.
+Los índices 0,16,32,48 son transparentes. Los planos usan un banco cada uno.
+Cada pose usa un único banco, declarado en sprites/sprites.json como
+palette_bank: actualmente 1 para 103 poses y 3 para las poses 89 y 91.
+Si reasignas una pose, cambia sus índices y su palette_bank juntos. Los
+espejos se generan al compilar y heredan el banco; no se voltean en Z80.
+palette-config.json declara los bancos de los planos y el valor por defecto
+para poses sin palette_bank. stage_colors=fixed respeta los colores editados.
+
+COLOR EGA
+Sprites y tiles tienen color procedente del PC EGA; las siluetas MSX y los
+trazos del terreno se conservan. ega-import.json registra las correspondencias
+y los rellenos de borde donde los dibujos difieren. El HUD conserva su arte
+y paleta MSX. Los PNG editados siguen siendo las fuentes de compilación: el
+importador EGA no se ejecuta con make all ni sobrescribe tus cambios.
+Los familyN-occupancy.bin conservan las máscaras originales que consulta
+el motor para puntos de detalle, separadas del color del PNG. Recolorear
+no altera esos cálculos; los TMX siguen siendo editables y usados por el juego.
+font.png sigue siendo una máscara: local 1=fondo y local 2=trazo.
+
+Edita los colores de la tabla en cualquiera de los seis PNG y ejecuta:
+  make assets-refresh MASTER=sprites.png
+(o MASTER=family0.png, hud.png, life.png, font.png, family1.png).
+Se importan los 64 colores a palettes.json, se cuantizan a RGB5 y se copian
+las tablas a todas las imágenes; los índices de píxel NO cambian.
+También se actualizan las vistas y la galería HTML autocontenida.
+  make assets-import MASTER=sprites.png
+Hace lo mismo y además reconstruye la ROM desde PNG, TSX y TMX editados.
+  make palette-check
+Verifica tablas idénticas y bancos válidos. La compilación normal también
+rechaza paletas desincronizadas: no elige un maestro ni sobrescribe cambios.
+Si editas directamente palettes.json (cuatro bancos RGB5, valores 0..31):
+  make assets-refresh
+Sin MASTER usa el JSON como autoridad. palette-sync sincroniza solo tablas;
+assets-refresh añade las vistas. Recarga PNG y tilesets abiertos en los
+editores/Tiled para evitar guardar después una tabla antigua.
+Mantén PNG indexado y los IDs/tamaños originales. Cambiar píxeles del atlas
+y celdas TMX afecta a la próxima ROM; las vistas numeradas son referencias.
+
+COMPILACION (desde la carpeta V9990)
+  make all          Compila la ROM ASCII16 con SJASM.
+  make clean        Limpia productos del port; conserva arte y evidencias.
+  make run          Abre Sony HB-10P + GFX9000 en una ventana independiente.
+  make run-9        Abre una partida nueva directamente en la fase 9.
+  make run-turboR   Abre Panasonic FS-A1GT + GFX9000, CPU Z80 a 3,58 MHz.
+  make previews     Actualiza la galería y las hojas numeradas de referencia.
+  make check        Comprueba fases, renderizado y música.
+
+El turboR usa Z80 real, con reloj de vídeo PAL durante el juego para conservar
+la cadencia original. No modifica la configuración global del emulador.
+Las compilaciones normales no vuelven a extraer ni sobreescriben el arte.
+No se instala nada ni se modifica SteamOS.
+
+PANTALLAS INICIALES
+screens/loading.png y screens/title.png son fuentes editables independientes
+(256x192, indexadas, 16 colores). No forman parte de la paleta compartida de64
+colores del juego. La carga utiliza índices0/15; el título conserva su paleta
+EGA. El juego restaura su paleta al salir de estas pantallas. CTRL, ESPACIO, ENTER, M o cualquier botón en cualquiera de los dos puertos continúan.
+El anuncio «No juegues con tu vida» y los avisos del cassette no se muestran.
+Manuales: docs/manual/manual-es.pdf y manual-en.pdf; regenerar con make manual.
+
+PRESENTACION Y CONTROLES
+branding/ contiene el logo y la sintonía DiHalt usados en Spy vs Spy 2.
+topo/ contiene actores editables y animation.json; compile_topo.py genera
+la animación nativa V9990 a unos 50 cuadros por segundo con doble búfer.
+Menú NORMAL / HARD (NORMAL por defecto): Q/A, cursores o joystick; fuego confirma. Q/A/O/P o cursores; ESPACIO/M o botón A/B
+de cualquier joystick para saltar. No hay selección ni redefinición de teclas.
+
+NUEVO OPENING
+opening/opening.jpeg es la imagen original aportada por el usuario, sin modificar.
+compile_opening.py genera build/opening-b3.png y .bin: B3/BD8, 512x424,
+256 colores; dibujo completo centrado, sin recorte ni deformación. Sustituye
+a la carga monocroma después del logo DiHalt. La ROM ocupa ahora 2 MiB.
+
+FUENTE GRANDE Y MENÚ
+-------------------
+font-large.png: máscara indexada editable de 16x16, ASCII 32..95, banco HUD 2.
+font-large.tsx permite abrirla en Tiled; el carácter > es el indicador del menú.
+font-large-styles.json define los colores por fila para seleccionado/no seleccionado.
+menu.json contiene los rótulos, alturas y posición de la flecha. NORMAL es el valor
+inicial; HARD duplica los desplazamientos del protagonista y los actores móviles.
+La extracción original con tools/extract_large_font.py es explícita y no sobrescribe
+los archivos editables. Las compilaciones normales consumen directamente estos PNG/JSON.
+Créditos y menú usan únicamente copias de la V9990; el chip de vídeo del MSX no dibuja.

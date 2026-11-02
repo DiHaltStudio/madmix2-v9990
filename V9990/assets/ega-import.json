@@ -1,0 +1,1426 @@
+{
+  "sprite_banks_omit_ega_color": {
+    "1": 5,
+    "3": 10
+  },
+  "sprites": [
+    {
+      "msx_pose": 0,
+      "pc_record": 0,
+      "mask_differences": 2,
+      "nearest_color_edge_fills": 2,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 1,
+      "pc_record": 1,
+      "mask_differences": 2,
+      "nearest_color_edge_fills": 2,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 2,
+      "pc_record": 2,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 3,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 3,
+      "pc_record": 3,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 3,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 4,
+      "pc_record": 4,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 3,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 5,
+      "pc_record": 5,
+      "mask_differences": 9,
+      "nearest_color_edge_fills": 7,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 6,
+      "pc_record": 6,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 1,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 7,
+      "pc_record": 7,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 8,
+      "pc_record": 8,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 9,
+      "pc_record": 9,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 10,
+      "pc_record": 10,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 11,
+      "pc_record": 11,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 12,
+      "pc_record": 12,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 13,
+      "pc_record": 13,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 14,
+      "pc_record": 14,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 15,
+      "pc_record": 15,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 16,
+      "pc_record": 16,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 17,
+      "pc_record": 17,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 18,
+      "pc_record": 18,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 19,
+      "pc_record": 19,
+      "mask_differences": 8,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 20,
+      "pc_record": 20,
+      "mask_differences": 20,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 21,
+      "pc_record": 21,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 22,
+      "pc_record": 22,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 23,
+      "pc_record": 23,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 24,
+      "pc_record": 24,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 25,
+      "pc_record": 25,
+      "mask_differences": 2,
+      "nearest_color_edge_fills": 2,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 26,
+      "pc_record": 26,
+      "mask_differences": 18,
+      "nearest_color_edge_fills": 3,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 27,
+      "pc_record": 27,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 28,
+      "pc_record": 28,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 29,
+      "pc_record": 29,
+      "mask_differences": 45,
+      "nearest_color_edge_fills": 43,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 30,
+      "pc_record": 30,
+      "mask_differences": 45,
+      "nearest_color_edge_fills": 43,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 31,
+      "pc_record": 31,
+      "mask_differences": 45,
+      "nearest_color_edge_fills": 43,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 32,
+      "pc_record": 32,
+      "mask_differences": 45,
+      "nearest_color_edge_fills": 43,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 33,
+      "pc_record": 33,
+      "mask_differences": 128,
+      "nearest_color_edge_fills": 128,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 34,
+      "pc_record": 34,
+      "mask_differences": 43,
+      "nearest_color_edge_fills": 33,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 35,
+      "pc_record": 35,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 36,
+      "pc_record": 36,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 37,
+      "pc_record": 37,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 38,
+      "pc_record": 38,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 39,
+      "pc_record": 39,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 40,
+      "pc_record": 40,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 41,
+      "pc_record": 41,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 42,
+      "pc_record": 42,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 43,
+      "pc_record": 43,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 44,
+      "pc_record": 44,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 45,
+      "pc_record": 45,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 46,
+      "pc_record": 46,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 47,
+      "pc_record": 47,
+      "mask_differences": 81,
+      "nearest_color_edge_fills": 19,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 48,
+      "pc_record": 48,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 49,
+      "pc_record": 49,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 50,
+      "pc_record": 50,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 51,
+      "pc_record": 51,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 52,
+      "pc_record": 52,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 53,
+      "pc_record": 53,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 54,
+      "pc_record": 54,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 55,
+      "pc_record": 55,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 56,
+      "pc_record": 56,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 57,
+      "pc_record": 57,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 58,
+      "pc_record": 58,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 59,
+      "pc_record": 59,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 60,
+      "pc_record": 60,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 61,
+      "pc_record": 61,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 62,
+      "pc_record": 62,
+      "mask_differences": 9,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 63,
+      "pc_record": 63,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 64,
+      "pc_record": 64,
+      "mask_differences": 2,
+      "nearest_color_edge_fills": 2,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 65,
+      "pc_record": 65,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 66,
+      "pc_record": 66,
+      "mask_differences": 4,
+      "nearest_color_edge_fills": 1,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 67,
+      "pc_record": 67,
+      "mask_differences": 2,
+      "nearest_color_edge_fills": 2,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 68,
+      "pc_record": 68,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 69,
+      "pc_record": 69,
+      "mask_differences": 4,
+      "nearest_color_edge_fills": 1,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 70,
+      "pc_record": 70,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 71,
+      "pc_record": 71,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 72,
+      "pc_record": 72,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 73,
+      "pc_record": 73,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 74,
+      "pc_record": 74,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 75,
+      "pc_record": 75,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 76,
+      "pc_record": 76,
+      "mask_differences": 19,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 77,
+      "pc_record": 77,
+      "mask_differences": 23,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 78,
+      "pc_record": 78,
+      "mask_differences": 136,
+      "nearest_color_edge_fills": 90,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 79,
+      "pc_record": 79,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 80,
+      "pc_record": 80,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 81,
+      "pc_record": 81,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 82,
+      "pc_record": 82,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 83,
+      "pc_record": 83,
+      "mask_differences": 5,
+      "nearest_color_edge_fills": 5,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 84,
+      "pc_record": 84,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 85,
+      "pc_record": 85,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 86,
+      "pc_record": 86,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 87,
+      "pc_record": 87,
+      "mask_differences": 62,
+      "nearest_color_edge_fills": 17,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 88,
+      "pc_record": 88,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 89,
+      "pc_record": 88,
+      "mask_differences": 0,
+      "palette_bank": 3,
+      "pc_records": [
+        88,
+        89
+      ],
+      "correction": "Join upper and lower 16-line records before applying the MSX mask; see screens/provenance.json"
+    },
+    {
+      "msx_pose": 90,
+      "pc_record": 90,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 91,
+      "pc_record": 90,
+      "mask_differences": 0,
+      "palette_bank": 3,
+      "pc_records": [
+        90,
+        91
+      ],
+      "correction": "Join upper and lower 16-line records before applying the MSX mask; see screens/provenance.json"
+    },
+    {
+      "msx_pose": 92,
+      "pc_record": 92,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 93,
+      "pc_record": 93,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 94,
+      "pc_record": 94,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 95,
+      "pc_record": 95,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 96,
+      "pc_record": 96,
+      "mask_differences": 4,
+      "nearest_color_edge_fills": 4,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 97,
+      "pc_record": 97,
+      "mask_differences": 3,
+      "nearest_color_edge_fills": 3,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 98,
+      "pc_record": 98,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 99,
+      "pc_record": 99,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 100,
+      "pc_record": 100,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 101,
+      "pc_record": 101,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 102,
+      "pc_record": 102,
+      "mask_differences": 1,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 103,
+      "pc_record": 103,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    },
+    {
+      "msx_pose": 104,
+      "pc_record": 104,
+      "mask_differences": 0,
+      "nearest_color_edge_fills": 0,
+      "palette_bank": 1
+    }
+  ],
+  "tiles": [
+    {
+      "family": 0,
+      "tile": 0,
+      "pc_record": 0,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 1,
+      "pc_record": 1,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 2,
+      "pc_record": 2,
+      "nearest_surface_fills": 1
+    },
+    {
+      "family": 0,
+      "tile": 3,
+      "pc_record": 3,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 4,
+      "pc_record": 4,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 5,
+      "pc_record": 5,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 6,
+      "pc_record": 6,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 7,
+      "pc_record": 7,
+      "nearest_surface_fills": 90
+    },
+    {
+      "family": 0,
+      "tile": 8,
+      "pc_record": 8,
+      "nearest_surface_fills": 2
+    },
+    {
+      "family": 0,
+      "tile": 9,
+      "pc_record": 9,
+      "nearest_surface_fills": 5
+    },
+    {
+      "family": 0,
+      "tile": 10,
+      "pc_record": 10,
+      "nearest_surface_fills": 2
+    },
+    {
+      "family": 0,
+      "tile": 11,
+      "pc_record": 11,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 12,
+      "pc_record": 12,
+      "nearest_surface_fills": 4
+    },
+    {
+      "family": 0,
+      "tile": 13,
+      "pc_record": 13,
+      "nearest_surface_fills": 9
+    },
+    {
+      "family": 0,
+      "tile": 14,
+      "pc_record": 14,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 15,
+      "pc_record": 15,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 16,
+      "pc_record": 16,
+      "nearest_surface_fills": 11
+    },
+    {
+      "family": 0,
+      "tile": 17,
+      "pc_record": 17,
+      "nearest_surface_fills": 9
+    },
+    {
+      "family": 0,
+      "tile": 18,
+      "pc_record": 18,
+      "nearest_surface_fills": 79
+    },
+    {
+      "family": 0,
+      "tile": 19,
+      "pc_record": 19,
+      "nearest_surface_fills": 103
+    },
+    {
+      "family": 0,
+      "tile": 20,
+      "pc_record": 20,
+      "nearest_surface_fills": 93
+    },
+    {
+      "family": 0,
+      "tile": 21,
+      "pc_record": 21,
+      "nearest_surface_fills": 74
+    },
+    {
+      "family": 0,
+      "tile": 22,
+      "pc_record": 22,
+      "nearest_surface_fills": 406
+    },
+    {
+      "family": 0,
+      "tile": 23,
+      "pc_record": 23,
+      "nearest_surface_fills": 390
+    },
+    {
+      "family": 0,
+      "tile": 24,
+      "pc_record": 24,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 25,
+      "pc_record": 25,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 26,
+      "pc_record": 26,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 27,
+      "pc_record": 27,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 28,
+      "pc_record": 28,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 29,
+      "pc_record": 29,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 30,
+      "pc_record": 30,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 31,
+      "pc_record": 31,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 32,
+      "pc_record": 32,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 33,
+      "pc_record": 33,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 34,
+      "pc_record": 34,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 35,
+      "pc_record": 35,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 36,
+      "pc_record": 36,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 37,
+      "pc_record": 37,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 38,
+      "pc_record": 38,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 39,
+      "pc_record": 39,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 40,
+      "pc_record": 40,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 41,
+      "pc_record": 41,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 42,
+      "pc_record": 42,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 43,
+      "pc_record": 43,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 44,
+      "pc_record": 44,
+      "nearest_surface_fills": 2
+    },
+    {
+      "family": 0,
+      "tile": 45,
+      "pc_record": 45,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 46,
+      "pc_record": 46,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 47,
+      "pc_record": 47,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 48,
+      "pc_record": 48,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 49,
+      "pc_record": 49,
+      "nearest_surface_fills": 12
+    },
+    {
+      "family": 0,
+      "tile": 50,
+      "pc_record": 50,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 51,
+      "pc_record": 51,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 52,
+      "pc_record": 52,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 53,
+      "pc_record": 53,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 54,
+      "pc_record": 54,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 0,
+      "tile": 55,
+      "pc_record": 110,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 0,
+      "pc_record": 55,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 1,
+      "pc_record": 56,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 2,
+      "pc_record": 57,
+      "nearest_surface_fills": 2
+    },
+    {
+      "family": 1,
+      "tile": 3,
+      "pc_record": 58,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 4,
+      "pc_record": 59,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 5,
+      "pc_record": 60,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 6,
+      "pc_record": 61,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 7,
+      "pc_record": 62,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 8,
+      "pc_record": 63,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 9,
+      "pc_record": 64,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 10,
+      "pc_record": 65,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 11,
+      "pc_record": 66,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 12,
+      "pc_record": 67,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 13,
+      "pc_record": 68,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 14,
+      "pc_record": 69,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 15,
+      "pc_record": 70,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 16,
+      "pc_record": 71,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 17,
+      "pc_record": 72,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 18,
+      "pc_record": 73,
+      "nearest_surface_fills": 7
+    },
+    {
+      "family": 1,
+      "tile": 19,
+      "pc_record": 74,
+      "nearest_surface_fills": 12
+    },
+    {
+      "family": 1,
+      "tile": 20,
+      "pc_record": 75,
+      "nearest_surface_fills": 1
+    },
+    {
+      "family": 1,
+      "tile": 21,
+      "pc_record": 76,
+      "nearest_surface_fills": 10
+    },
+    {
+      "family": 1,
+      "tile": 22,
+      "pc_record": 77,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 23,
+      "pc_record": 78,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 24,
+      "pc_record": 79,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 25,
+      "pc_record": 80,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 26,
+      "pc_record": 81,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 27,
+      "pc_record": 82,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 28,
+      "pc_record": 83,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 29,
+      "pc_record": 84,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 30,
+      "pc_record": 85,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 31,
+      "pc_record": 86,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 32,
+      "pc_record": 87,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 33,
+      "pc_record": 88,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 34,
+      "pc_record": 89,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 35,
+      "pc_record": 90,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 36,
+      "pc_record": 91,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 37,
+      "pc_record": 92,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 38,
+      "pc_record": 93,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 39,
+      "pc_record": 94,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 40,
+      "pc_record": 95,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 41,
+      "pc_record": 96,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 42,
+      "pc_record": 97,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 43,
+      "pc_record": 98,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 44,
+      "pc_record": 99,
+      "nearest_surface_fills": 2
+    },
+    {
+      "family": 1,
+      "tile": 45,
+      "pc_record": 100,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 46,
+      "pc_record": 101,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 47,
+      "pc_record": 102,
+      "nearest_surface_fills": 19
+    },
+    {
+      "family": 1,
+      "tile": 48,
+      "pc_record": 103,
+      "nearest_surface_fills": 33
+    },
+    {
+      "family": 1,
+      "tile": 49,
+      "pc_record": 104,
+      "nearest_surface_fills": 58
+    },
+    {
+      "family": 1,
+      "tile": 50,
+      "pc_record": 105,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 51,
+      "pc_record": 106,
+      "nearest_surface_fills": 2
+    },
+    {
+      "family": 1,
+      "tile": 52,
+      "pc_record": 107,
+      "nearest_surface_fills": 1
+    },
+    {
+      "family": 1,
+      "tile": 53,
+      "pc_record": 108,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 54,
+      "pc_record": 109,
+      "nearest_surface_fills": 0
+    },
+    {
+      "family": 1,
+      "tile": 55,
+      "pc_record": 110,
+      "nearest_surface_fills": 0
+    }
+  ],
+  "policy": "MSX silhouettes and terrain linework retained; EGA colors transferred; original HUD retained; edge fills explicitly listed."
+}

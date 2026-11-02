@@ -1,0 +1,14 @@
+.venv/
+MSX
+V9990/assets/music
+V9990/assets/sfx
+V9990/assets/opening
+V9990/build/
+release/*
+!release/.gitkeep
+**/__pycache__/
+*.pyc
+*.aux
+*.log
+*.toc
+*.out

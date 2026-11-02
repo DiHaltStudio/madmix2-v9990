@@ -1,0 +1,12 @@
+{
+  "options": [
+    "STANDARD",
+    "HARD"
+  ],
+  "rows": [
+    80,
+    112
+  ],
+  "arrow_x": 40,
+  "default": 0
+}

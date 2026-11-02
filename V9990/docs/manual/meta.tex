@@ -1,0 +1,17 @@
+% Facts about the game. Edit this file; manual.tex and the lang files read it.
+\newcommand{\gameTitle}{Mad Mix 2}
+\newcommand{\originalPublisher}{Topo Soft}
+\newcommand{\originalYear}{1990}
+\newcommand{\portAuthor}{DiHalt Studio}
+\newcommand{\portYear}{2026}
+\newcommand{\accentRGB}{230,175,35}      % accent colour of headings (R,G,B), taken from the cover
+\newcommand{\romFile}{madmix2-v99990.rom}
+\newcommand{\romKind}{1~MiB ASCII16 MegaROM}   % mapper and size
+\newcommand{\ramNeeded}{64~KB}
+\newcommand{\portWork}{display engine, tools, colour artwork integration and cartridge adaptation}  % what the port author did (EN)
+\newcommand{\portWorkES}{motor de vídeo, herramientas, integración del arte en color y adaptación a cartucho}
+% The game is a cartridge (ROM): the manual ends with a printable cartridge label.
+% Games on disk (MSX-DOS, floppy, hard disk, SD; usually MSX2 / turbo R) have no
+% label: \cartridgefalse (new_manual.py --media disk writes it).
+\newif\ifcartridge
+\cartridgetrue

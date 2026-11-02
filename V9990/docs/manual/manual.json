@@ -1,0 +1,44 @@
+{
+  "cover": "docs/img/manual-cover.png",
+  "cover_shot": "docs/img/loading.png",
+  "title": "docs/img/title.png",
+  "montage": [
+    "docs/img/loading.png",
+    "docs/img/menu.png",
+    "docs/img/play.png"
+  ],
+  "huds": [
+    {
+      "name": "hud",
+      "src": "docs/img/play.png",
+      "box": [
+        31,
+        13,
+        287,
+        205
+      ],
+      "labels": [
+        [
+          1,
+          167,
+          18
+        ],
+        [
+          2,
+          210,
+          194,
+          "b"
+        ]
+      ]
+    }
+  ],
+  "label": {
+    "lines": [
+      "MSX1 \u00b7 64 KB RAM",
+      "ASCII16 \u00b7 1 MiB"
+    ],
+    "credit": "TOPO SOFT 1990 \u00b7 V9990 PORT: DIHALT STUDIO 2026",
+    "art": "docs/img/label-art.png",
+    "fit": true
+  }
+}

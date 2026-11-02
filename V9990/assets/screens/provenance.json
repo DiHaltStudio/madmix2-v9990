@@ -1,0 +1,20 @@
+{
+  "loading": "MSX stage image 2F1D..471C; monochrome loading illustration formerly displayed after START",
+  "title": "PC LOGOSET.EGA record0 and SETCARAC.EGA records0..2; centered composition",
+  "franky": [
+    {
+      "pose": 89,
+      "pc_records": [
+        88,
+        89
+      ]
+    },
+    {
+      "pose": 91,
+      "pc_records": [
+        90,
+        91
+      ]
+    }
+  ]
+}

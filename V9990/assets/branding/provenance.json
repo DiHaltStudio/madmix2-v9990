@@ -1,0 +1,8 @@
+{
+  "source_project": "spyvsspy2_v9990/V9990-P1",
+  "purpose": "User-requested identical DiHalt opening logo and PSG fanfare",
+  "sha256": {
+    "dihalt_logo-b1.png": "78430ed7b0b44a055ff943362b14bd5727f830ecf714f93dfbead8ac96b23f1b",
+    "dihalt_fanfare.vgm": "447da5bdecf0d7afdf3caf673e6febcf80729eb96b2b9330a2e4b1d08d3182f0"
+  }
+}
